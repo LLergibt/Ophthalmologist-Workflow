@@ -1,0 +1,51 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Backend Python
+backend/__pycache__/
+backend/.venv/
+backend/venv/
+backend/*.pyc
+
+# Backend Java
+backend/target/
+backend/*.class
+
+# Backend .NET
+backend/bin/
+backend/obj/
+
+# Test reports
+testing/reports/generated/
+coverage/
+htmlcov/
+
+# Infrastructure
+*.tfstate
+*.tfstate.backup
+
+# Analytics temporary files
+~$*.xlsx
+~$*.docx
+~$*.pptx
+
+# Archives
+*.zip
+*.rar
